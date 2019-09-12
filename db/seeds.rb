@@ -1,3 +1,7 @@
+PokeAttack.destroy_all
+Pokemon.destroy_all
+Attack.destroy_all
+
 Pokemon.create_pokemons
 Attack.create_attacks
 PokeAttack.create_pokeattack

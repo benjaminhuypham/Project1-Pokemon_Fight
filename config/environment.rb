@@ -10,9 +10,10 @@ ActiveRecord::Base.establish_connection(
     adapter: "sqlite3", 
     database: "db/pokemon.db"
 )
+ActiveRecord::Base.logger = nil
 
-binding.pry 
-0
+# binding.pry
+Cli.main_menu
 
 
 
